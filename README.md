@@ -5,7 +5,7 @@
 ## Info
 
 * Based on Ubuntu LTS (22.04)
-* Node.js (16)
+* Node.js (22)
 * [confd](https://github.com/kelseyhightower/confd) onboard
 * other tools:
 
@@ -16,6 +16,9 @@
   * tree
 
 ## Changelog
+
+* **5.0.0**
+  * Node.js updated to 22
 
 * **4.0.0**
   * Node.js updated to 16

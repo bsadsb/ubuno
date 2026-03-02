@@ -27,8 +27,8 @@ RUN apt-get install -qy -o APT::Install-Recommend=false -o APT::Install-Suggests
     wget \
     tzdata
 
-# install Node.js 16.x 
-RUN curl -sL https://deb.nodesource.com/setup_16.x -o nodesource_setup.sh && \
+# install Node.js 22.x 
+RUN curl -sL https://deb.nodesource.com/setup_22.x -o nodesource_setup.sh && \
     bash nodesource_setup.sh && \
     apt-get install nodejs -y && \
     rm nodesource_setup.sh
